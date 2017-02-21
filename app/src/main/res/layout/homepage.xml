@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tm"
+    tools:context=".FragHomepage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageview"
+        android:background="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textSize="15sp"
+            android:paddingLeft="80dp"
+            android:id="@+id/textview7"
+            android:text="Welcome to KIIT Univercity"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageview1"
+            android:background="@drawable/edituser"/>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:id="@+id/button1"
+            android:background="@drawable/btn_enter_faculty_publish"
+            android:layout_marginLeft="70dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageview2"
+            android:background="@drawable/edituser"/>
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:id="@+id/button2"
+            android:background="@drawable/btn_enter_mphill_desertation"
+            android:layout_marginLeft="70dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/button3"
+            android:background="@drawable/btn_enter_student_project"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageview3"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/edituser"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:id="@+id/button4"
+            android:layout_marginLeft="1dp"
+            android:background="@drawable/btn_enter_faculty_publish"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageview4"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/edituser"/>
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/btn_sync_detail"
+        android:id="@+id/button5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="170dp"
+            android:layout_marginBottom="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#fff"
+            android:background="@drawable/view_mage"
+            android:id="@+id/button6" />
+        <Button
+            android:layout_width="170dp"
+            android:layout_marginBottom="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#fff"
+            android:background="@drawable/search_image"
+            android:id="@+id/button7" />
+
+    </LinearLayout>
+</LinearLayout>

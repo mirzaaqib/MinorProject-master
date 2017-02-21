@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/tm">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:textColor="#000"
+        android:layout_height="30dp"
+        android:id="@+id/textview1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        android:id="@+id/listview"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:textColor="#000"
+            android:id="@+id/textview2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:textColor="#000"
+            android:id="@+id/textview3"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:textColor="#000"
+            android:id="@+id/textview4"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:textColor="#000"
+            android:id="@+id/textview5"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:textColor="#000"
+            android:id="@+id/textview6"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05"
+            android:textColor="#000"
+            android:id="@+id/textview7"/>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="40dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000"
+        android:textColorHighlight="#000"/>
+
+</LinearLayout>
